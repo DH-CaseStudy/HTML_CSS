@@ -1,4 +1,4 @@
-p {
+/* p {
     color : red;
     text-align: center;
 }
@@ -6,4 +6,54 @@ p {
 h1 {
     font-size: 100px;
     text-align: center;
+} */
+
+/* 전체 선택자 */
+ /* * {
+    color : red;
+ } */
+
+ /* 유형 선택자 */
+ /* p {
+    
+ } */
+
+ /* 아이디 선택자 */
+ /* #test1 {
+    color:green;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ #test2 {
+    color:red;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ #test3 {
+    color:rebeccapurple;
+    text-align: center;
+    font-size: 40px;
+ } */
+
+ /* 클래스 선택자 */
+
+/* .my-class1 {
+    color: aqua;
+}
+
+.my-class2 {
+    background-color:blue;
+    text-align: center;
+} */
+
+/* 복합 선택자 */
+
+div p {
+    color : blue;
+}
+
+div div p {
+    color : red;
 }
