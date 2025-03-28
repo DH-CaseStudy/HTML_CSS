@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>회원 가입</title>
+    <style>
+      #container {
+        width:600px;
+        margin:10px auto;
+      }
+    </style>
+  </head>
+  <body> 
+    <div id="container">
+      <h1>회원 가입을 환영합니다</h1>
+      <form action="myform.html" method="get"></form>
+      <fieldset>
+        <legend>사용자 정보</legend>
+        <ul>
+           <li><label for="아이디">아이디 <input type="text" name = "" value="" autofocus placeholder="입력하세요"> </label> </li>
+           <li> <label for="이메일">이메일 <input type="text" name = "" value=""> </label>  </li>
+           <li> <label for="비밀번호">비밀번호 <input type="text" name = "" value=""> </label></li>
+           <li> <label for="비밀번호 확인">비밀번호 확인 <input type="text" name = "" value=""> </label></li>     
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>이벤트와 새로운 소식</legend>
+        <label for="radio"><input type="radio" name="receive_email" value ="y">메일 수신</label>
+        <label for="radio"><input type="radio" name="receive_email" value ="n">메일 수신 안함</label>
+    </fieldset>
+    </div>    
+           
+  </body>
+</html>

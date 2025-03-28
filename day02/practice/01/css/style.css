@@ -1,0 +1,41 @@
+#container {
+    width: 600px;
+    /* height: 450; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#content_container {
+    width: 640px;
+    border: 1px solid black;
+}
+
+#title {
+    background: black;
+    font-size : 20px;
+    color: white;
+    margin:0 auto;
+    padding:10px;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+#p3 {
+    text-align: center;
+    padding : 15;
+}
+
+#p5 {
+    text-align: center;
+}
+
+#p6 {
+    text-align: center;
+}
+
+#test {
+    color: blue;
+}
