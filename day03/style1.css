@@ -1,0 +1,22 @@
+/* html, body {
+    height: 100%;
+} */
+
+body {
+    display:flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#second {
+    width:200px;
+    height: 200px;
+    background-color: black;
+}

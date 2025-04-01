@@ -1,0 +1,14 @@
+
+div{
+    width:200px;
+    height: 200px;
+    background-color: rgb(83, 226, 43);
+
+    position: static;
+}
+
+#second {
+    width:200px;
+    height: 200px;
+    background-color: blue;
+}

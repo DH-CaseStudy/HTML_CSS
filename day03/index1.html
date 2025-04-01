@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Selector Basic</title>
+    <style>
+        input[type=checkbox]:checked + div {
+            height: 0px;
+        }
+
+        div {
+            overflow: hidden;
+            width: 650px;
+            height: 300px;
+            -ms-transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>상태 선택자</h1>
+    <input type="checkbox" name="check" id="">
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Alias enim minus fuga placeat consequuntur dolorum sit, 
+            laborum repellat iste omnis fugiat esse ea veniam quaerat obcaecati harum, perferendis vel qui.
+        </p>
+    </div>
+</body>
+</html>
